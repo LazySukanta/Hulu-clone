@@ -1,6 +1,5 @@
 .header {
   color: white;
-  
   display: flex;
   padding: 20px;
   align-items: center;
@@ -50,6 +49,7 @@
   flex-direction: column;
   cursor: pointer;
   align-items: center;
+  padding: 20px;
 }
 
 .header_icons {
