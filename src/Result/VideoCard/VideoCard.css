@@ -1,0 +1,10 @@
+.VideoCard{
+  /* color: cornflowerblue; */
+}
+
+.VideoCard > img {
+  max-height: 300px;
+  max-width: 500px;
+  object-fit: contain;
+  color: white;
+}
