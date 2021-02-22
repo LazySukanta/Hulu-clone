@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-
+import hulu_white from "../images/hulu-white.png";
 import HomeIcon from "@material-ui/icons/Home";
 import FlashOnIcon from "@material-ui/icons/FlashOn";
 import LiveTvIcon from "@material-ui/icons/LiveTv";
@@ -40,7 +40,7 @@ function Header() {
         </div>
       </div>
 
-      <img src="/images/hulu-white.png" alt="HULU Image" />
+      <img src={hulu_white} alt="HULU" />
     </div>
   );
 }
